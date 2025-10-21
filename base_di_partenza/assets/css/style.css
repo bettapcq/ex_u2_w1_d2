@@ -248,6 +248,8 @@ h1 + p {
   top: 63px;
   right: 36px;
   /* da 1100px a 844px circa, si comporta in modo anomalo, forse perchè il testo va a capo */
+  /* soluzione sotto */
+  white-space: nowrap;
 }
 
 .imgLeft {
